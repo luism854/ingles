@@ -7,98 +7,126 @@
     <link rel="stylesheet" href="css/style.css">
     
     <title>Portafolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header class="encabezado">
+    <header class="encabezado" id="home">
         <nav class="navegador">
             <ul class="navegador__lista">
-                <li class="navegador__lista__item"><a href="#proyectos" class="lista">Projects<i class="fa-light fa-diagram-project"></i></a></li>
+              <li class="navegador__lista__item"><a href="#home" class="lista scroll-link">Home</a></li>
+            </ul>
+            <ul class="navegador__lista">
+                <li class="navegador__lista__item"><a href="#proyecto" class="lista scroll-link">Projects</a></li>
+            </ul>
+            <ul class="navegador__lista">
+              <li class="navegador__lista__item"><a href="#intro" class="lista scroll-link">Introduction</a></li>
+            </ul>
+            <ul class="navegador__lista">
+              <li class="navegador__lista__item"><a href="#education" class="lista scroll-link">Education</a></li>
+            </ul>
+            <ul class="navegador__lista">
+              <li class="navegador__lista__item"><a href="#skills" class="lista scroll-link">Skills</a></li>
             </ul>
         </nav>
     </header>
     <main class="container">
         <section class="banner">
-            <h1>Hi, i am Luis.<br>i am a SENA student</h1>
+          <div class="imagenz"></div>
+            <h1 class="tit">Hi, i am Luis.<br>I am a student of ADSO
+              <div class="wave">
+              <span><img class="snor" src="imagenes/snorlax.png" alt=""></span><br>
+          </div>
+            </h1>
         </section>
         <section  class="proyectos">
             <div class="titulo">
-                <h2 id="proyectos">Projects</h2>
+                <h2 id="proyecto">Projects</h2>
             </div>
             <div class="box1">
-              <div class="cuadro" style="background-image: url(imagenes/What-are-fonts.png);">
-                  <h1 class="ct">Fuentes</h1>
-                  <ul class="cuadro1">
-                      <li><a href="got.html" class="ct2">Font of Game Of thrones</a></li>
-                      <li><a href="netflix.html" class="ct2">Font of Netflix</a></li>
-                      <li><a href="disney.html" class="ct2">Font of Disney</a></li>
-                   </ul>
+              <div class="cuadros">
+                <a href="Fuentes.html">
+                  <img src="imagenes/What-are-fonts.png" alt="" class="cuadro">
+                  <div class="ab">Fonts</div>
+                </a>
               </div>
-              <div class="cuadro" style="background-image: url(imagenes/colour-1885352_1280.jpg);">
-                  <h1 class="ct">Colors</h1>
-                  <ul class="cuadro1">
-                      <li><a href="color.html" class="ct2">Colors</a></li>
-                  </ul>
+              <div class="cuadros">
+                <a href="color.html">
+                    <img src="imagenes/colour-1885352_1280.jpg" alt="" class="cuadro">
+                    <div class="ab">Colors</div>
+                </a>
               </div>
-              <div class="cuadro" style="background-image: url(imagenes/Unknown.jpg);">
-                  <h1 class="ct">Edges</h1>
-                  <ul class="cuadro1">
-                      <li><a href="bordes.html" class="ct2">Edges</a></li>
-                  </ul>
+              <div class="cuadros">
+                <a href="bordes.html">
+                    <img src="imagenes/Unknown.jpg" alt="" class="cuadro">
+                    <div class="ab">Edges</div>
+                </a>
               </div>
-              <div class="cuadro" style="background-image: url(imagenes/CB125F-LEAD\ -1080x608.png);">
-                  <h1 class="ct">Catalogue</h1>
-                  <ul class="cuadro1">
-                      <li><a href="catalogo.html" class="ct2">Catalogue</a></li>
-                  </ul>
+              <div class="cuadros">
+                <a href="catalogo.html">
+                    <img src="imagenes/CB125F-LEAD -1080x608.png" alt="" class="cuadro">
+                    <div class="ab">Catalogue</div>
+                </a>
               </div>
-              <div class="cuadro" style="background-image: url(imagenes/night_noche_park_parque_man_hombre_sit_sentado-1099336.jpg!d.jpg);">
-                  <h1 class="ct">Shadow</h1>
-                  <ul class="cuadro1">
-                      <li><a href="boxshadow.html" class="ct2">Shadow</a></li>
-                  </ul>
+              <div class="cuadros">
+                <a href="boxshadow.html">
+                    <img src="imagenes/night_noche_park_parque_man_hombre_sit_sentado-1099336.jpg!d.jpg" alt="" class="cuadro">
+                    <div class="ab">Box Shadow</div>
+                </a>
               </div>
-              <div class="cuadro" style="background-image: url(imagenes/analisis-datos-tablas-graficos-averiguar-resultado-fondo-grafico-negocios_372999-8037.jpg);">
-                  <h1 class="ct">Tables</h1>
-                  <ul class="cuadro1">
-                      <li><a href="Tabla.html" class="ct2">Table 1</a></li>
-                      <li><a href="tabla2.html" class="ct2">Table 2</a></li>
-                  </ul>
+              <div class="cuadros">
+                <a href="Tabla.html">
+                    <img src="imagenes/analisis-datos-tablas-graficos-averiguar-resultado-fondo-grafico-negocios_372999-8037.jpg" alt="" class="cuadro">
+                    <div class="ab">Table</div>
+                </a>
               </div>
-              <div class="cuadro" style="background-image: url(imagenes/82661-5-mejores-webs-encuestas-pagadas.jpg);">
-                  <h1 class="ct">Forms</h1>
-                  <ul class="cuadro1">
-                      <li><a href="formulario.html" class="ct2">Form 1</a></li>
-                      <li><a href="formulario2.html" class="ct2">Form 2</a></li>
-                  </ul>
+              <div class="cuadros">
+                <a href="formulario.html">
+                    <img src="imagenes/82661-5-mejores-webs-encuestas-pagadas.jpg" alt="" class="cuadro">
+                    <div class="ab">Form</div>
+                </a>
               </div>
-              <div class="cuadro" style="background-image: url(imagenes/iconos.jpg);">
-                  <h1 class="ct">icons</h1>
-                  <ul class="cuadro1">
-                      <li><a href="iconos.html" class="ct2">Icons</a></li>
-                  </ul>
+              <div class="cuadros">
+                <a href="iconos.html">
+                    <img src="imagenes/iconos.jpg" alt="" class="cuadro">
+                    <div class="ab">Icons</div>
+                </a>
               </div>
-              <div class="cuadro" style="background-image: url(imagenes/iconos.jpg);">
-                  <h1 class="ct">SENA menu</h1>
-                  <ul class="cuadro1">
-                      <li><a href="menusena.html" class="ct2">Menu</a></li>
-                  </ul>
+              <div class="cuadros">
+                <a href="menusena.html">
+                    <img src="imagenes/menu.png" alt="" class="cuadro">
+                    <div class="ab">Sena menu</div>
+                </a>
               </div>
           </div>
         </section>
         <section class="sobre">
             <div class="sobre__container__text">
-                <div class="item__container__sobre">
-                    <h3>Education</h3>
-                    <p>Software analysis and developement student</p>
+                <div>
+                  <div class="titulo">
+                    <h3 id="intro">Introduction</h3>
+                  </div>
+                  <p class="text1">
+                    Hello, my name is Luis. I'm 21 years old and I consider myself a passionate person about programming. I like to learn new things and challenge myself to continuously improve. <br>
+
+                    Regarding my programming experience, I have been exploring different programming languages and online platforms to expand my knowledge. I also love the feeling of solving complex problems using algorithms and data structures.
+                  </p>
                 </div>
                 <div class="item__container__sobre">
-                    <h3>Skills</h3>
+                    <div class="titulo">
+                        <h3 id="education">Education</h3>
+                    </div>
+                    <p class="text1">Software analysis and developement student</p>
+                </div>
+                <div class="titulo">
+                      <h3 id="skills">Skills</h3>
                     <ul class="lista__habilidades">
-                        <li class="item__habilidad">Clear Communication</li>
-                        <li class="item__habilidad">Teamwork</li>
-                        <li class="item__habilidad">Responsibility</li>
-                        <li class="item__habilidad">Troubleshooting</li>
-                        <li class="item__habilidad">Interpersonal skills</li>
+                        <li class="text2">Clear Communication</li>
+                        <li class="text2">Teamwork</li>
+                        <li class="text2">Responsibility</li>
+                        <li class="text2">Troubleshooting</li>
+                        <li class="text2">Interpersonal skills</li>
                     </ul>
                 </div>
             </div>
